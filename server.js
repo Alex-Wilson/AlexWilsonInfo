@@ -1,30 +1,19 @@
+const express = require('express');
+const app = express();
 
-const express = require('express')
-const app = express()
-const port = 3000
+const path = require('path');
+const PORT = process.env.PORT || 3000;
 
-app.use(express.static('public'))
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
-  res.render('index.html')
-})
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
 
 app.get('/aboutme', (req, res) => {
-  res.render('aboutme.html')
-})
+  res.sendFile(path.join(__dirname, 'public', 'views','aboutme.html'));
+});
 
-
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
-
-
-/**
- * 
- * 
-Monster
-Hunter X Hunter
-Demon Slayer
-Parasite
-
-*///
+app.listen(PORT, () => {
+  console.log(`Example app listening on port ${PORT}`)
+});
