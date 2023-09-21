@@ -22,6 +22,10 @@ app.get('/games', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'views','games.html'));
 });
 
+app.get('/projects', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'views','projects.html'));
+});
+
 app.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}`)
 });
