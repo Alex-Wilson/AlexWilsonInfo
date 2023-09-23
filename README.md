@@ -21,3 +21,5 @@ Route Google Domains to forward to the IPv4 address of the newly created droplet
 
 SSH into the droplet using Putty:
 
+KANBAN board  can be found here:
+https://trello.com/b/keaiJS9G/work
