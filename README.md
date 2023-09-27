@@ -19,7 +19,18 @@ Create Digital Ocean Droplet using generated public key
 
 Route Google Domains to forward to the IPv4 address of the newly created droplet
 
-SSH into the droplet using Putty:
+SSH into the droplet using Putty
 
-KANBAN board  can be found here:
-https://trello.com/b/keaiJS9G/work
+enable firewall
+
+create user
+
+provision rwx perms to newly created user
+
+switch user
+
+git clone
+
+download dependencies 
+
+node server.js to run
