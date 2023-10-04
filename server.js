@@ -18,14 +18,19 @@ app.get('/software', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'views','software.html'));
 });
 
-app.get('/games', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'views','games.html'));
+app.get('/media', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'views','media.html'));
 });
 
 app.get('/projects', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'views','projects.html'));
 });
 
+app.get('/resources', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'views','resources.html'));
+});
+
+
 app.listen(PORT, () => {
-  console.log(`Example app listening on port ${PORT}`)
+  console.log(`Server listening on Port:${PORT}`)
 });
