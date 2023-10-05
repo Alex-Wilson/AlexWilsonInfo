@@ -6,7 +6,7 @@
 
 }
 
-li, a , button{
+li, a, button{
     font-family: sans-serif;
     font-size: 24px;
     color: white;
@@ -22,23 +22,24 @@ header{
 
 .logo{
     cursor: pointer;
+    scale: .1;
 }
 
-.nav_links{
+.navbar_links{
     list-style:none;
 }
 
-.nav_links li{
+.navbar_links li{
     display: inline-block;
     padding:0px 20px;
     
 }
 
-.nav_links li a{
+.navbar_links li a{
     transition: all 0.3s ease 0s;
 }
 
-.nav_links li a:hover{
+.navbar_links li a:hover{
     color: cyan;
 }
 
