@@ -8,6 +8,5 @@ Pick professional color pallete
 pick fonts for the website
     security or performance risk of google fonts ???
 
-Resize the logo
 
 add functionality to the contact us button
