@@ -1,0 +1,39 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Media Prefrences
+  meta(name='description' content='Media that I enjoy consuming.')
+  link(rel='stylesheet' href='/css/style.css')
+  script(src='/js/index.js' defer='')
+header
+  a(href='/')
+    img.logo(src='images/frog_logo.svg' alt='Personal Logo, ribbit')
+  nav
+    ul.nav_links
+      li
+        a(href='/aboutme') About Me
+      li
+        a(href='https://www.github.com/Alex-Wilson') GitHub
+      li
+        a(href='/projects') Projects
+      li
+        a(href='/software') Software
+      li
+        a(href='/resources') Resources
+      li
+        a(href='/media') Media
+      //
+        -
+        <li><a href="https://www.linkedin.com/in/alex-wilson-3021a5257">LinkedIn</a></li>
+        -
+  a.cta(href='#')
+    button#contact-me-button Contact Me
+h1 Video games that I enjoy
+ul#video-games-list
+  li Yu-Gi-Oh Master Duel
+  li Nioh 2
+  li Rainbow Six Siege
+  li Titan Fall 2
+  li Escape From Tarkov
