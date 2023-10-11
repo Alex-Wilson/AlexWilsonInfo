@@ -1,7 +1,9 @@
 const express = require('express');
-const app = express();
-
 const path = require('path');
+const pug = require('pug');
+
+
+const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.static(path.join(__dirname, 'public')));
@@ -34,7 +36,7 @@ app.get('/resources', (req, res) => {
 */
 
 app.get('/', (req, res) => {
-  res.render(path.join(__dirname, 'public', 'views', 'aboutme.pug'))
+  res.render(path.join(__dirname, 'public', 'views', 'index.pug'))
 });
 
 app.get('/aboutme', (req, res) => {

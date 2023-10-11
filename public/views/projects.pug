@@ -1,41 +1,18 @@
-doctype html
-head
-  meta(charset='UTF-8')
-  meta(http-equiv='X-UA-Compatible' content='IE=edge')
-  meta(name='viewport' content='width=device-width, initial-scale=1.0')
-  title Project Ideas
-  meta(name='description' content='Idellic project ideas I would love to explore.')
-  link(rel='stylesheet' href='/css/style.css')
-  script(src='/js/index.js' defer='')
-header
-  a(href='/')
-    img.logo(src='images/frog_logo.svg' alt='Personal Logo, ribbit')
-  nav
-    ul.nav_links
-      li
-        a(href='/aboutme') About Me
-      li
-        a(href='https://www.github.com/Alex-Wilson') GitHub
-      li
-        a(href='/projects') Projects
-      li
-        a(href='/software') Software
-      li
-        a(href='/resources') Resources
-      li
-        a(href='/media') Media
-      //
-        -
-        <li><a href="https://www.linkedin.com/in/alex-wilson-3021a5257">LinkedIn</a></li>
-        -
-  a.cta(href='#')
-    button#contact-me-button Contact Me
-h1  Here are some project ideas
-ul(id='project-ideas list')
-  li Speedy Personal Portfolio Site (Node+Express+NGINX)
-  li Pokedex Webapp(Using APIs, TypeScript, NextJS, Tailwind)
-  li Yu-Gi-Oh Deck Builder (Basically an abstract ORM)
-  li Simple Keylogger
-  li Metadata Scrubbing Tool
-  li Implement Conway&apos;s Game of Life
-  li Loot Customization Mod for Single Player Tarkov
+extends layout.pug 
+
+block header
+    title Project Ideas
+    meta(name='description' content='Idellic project ideas I would love to explore.')
+
+block content_area
+    h1  Here are some project ideas
+        ul(id='project-ideas list')
+        li Speedy Personal Portfolio Site (Node+Express+NGINX)
+        li Pokedex Webapp(Using APIs, TypeScript, NextJS, Tailwind)
+        li Yu-Gi-Oh Deck Builder (Basically an abstract ORM)
+        li Simple Keylogger
+        li Metadata Scrubbing Tool
+        li Implement Conway's Game of Life
+        li Loot Customization Mod for Single Player Tarkov
+
+

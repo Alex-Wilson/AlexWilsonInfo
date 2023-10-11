@@ -1,0 +1,38 @@
+doctype
+html
+    head
+        meta(charset='UTF-8')
+        meta(http-equiv='X-UA-Compatible' content='IE=edge')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        link(rel='stylesheet' href='/css/style.css')
+        script(src='/js/index.js' defer='')
+        block header
+    
+    block navbar
+        header
+            a(href='/')
+                img.logo(src='images/frog_logo.svg' alt='Personal Logo, ribbit')
+            nav
+                ul.nav_links
+                    li
+                        a(href='/aboutme') About Me
+                    li
+                        a(href='https://www.github.com/Alex-Wilson') GitHub
+                    li
+                        a(href='/projects') Projects
+                    li
+                        a(href='/software') Software
+                    li
+                        a(href='/resources') Resources
+                    li
+                        a(href='/media') Media
+                //
+                    -
+                    <li><a href="https://www.linkedin.com/in/alex-wilson-3021a5257">LinkedIn</a></li>
+                    -
+            a.cta(href='#')
+                button#contact-me-button Contact Me
+    
+    block content_area
+    
+    block footer
