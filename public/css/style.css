@@ -1,53 +1,70 @@
+/* General Formatting for Tag Types*/
 * {
-    box-sizing: border-box;
-    margin: 0;
+    font-family: sans-serif;
     padding: 0;
     background-color:lightslategrey;
-
 }
 
-li, a, button {
-    font-family: sans-serif;
+h1{
     font-size: 24px;
-    color: white;
-    text-decoration: none;
+    color: black;
+    text-align: center;
 }
 
+h3{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+
+p{
+    font-size: 16px;
+    color:black;
+    text-align: center;
+}
+
+ul, li, a{
+    text-decoration: none;
+    color:rgb(0, 255, 255);
+    text-align: center;
+}
+
+
+
+/* General Formatting for Navbar*/
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: auto;
 }
 
 .logo {
     cursor: pointer;
     height: 100px;
     width: 100px;
-
 }
 
-.nav_links {
-    list-style:none;
-}
-
-.nav_links li {
+.nav_links li{
     display: inline-block;
+    list-style:none;
     padding: 0px 20px;
-    
 }
 
 .nav_links li a {
+    font-size: 18px;
+    text-decoration: none;
     color:rgb(0, 255, 255);
     transition: all 0.3s ease 0s;
 }
 
-.nav_links li a:hover {
+li a:hover {
     color: black;
 }
 
 
-button { 
+button{ 
+    color:white;
     padding: 9px 25px;
     background-color: rgba(0, 255, 255, .25);
     border: none;
@@ -60,3 +77,12 @@ button:hover{
     background-color: rgba(0, 255, 255, .75);
     color:black;
 }
+
+
+
+/* Content Formatting*/
+.crypto-addresses, li{
+    color:black;
+}
+
+

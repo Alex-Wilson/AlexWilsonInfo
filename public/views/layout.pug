@@ -9,7 +9,7 @@ html
         block header
     
     block navbar
-        header
+        header.nav_area
             a(href='/')
                 img.logo(src='images/frog_logo.svg' alt='Personal Logo, ribbit')
             nav
@@ -17,19 +17,15 @@ html
                     li
                         a(href='/aboutme') About Me
                     li
-                        a(href='https://www.github.com/Alex-Wilson') GitHub
-                    li
-                        a(href='/projects') Projects
-                    li
-                        a(href='/software') Software
+                        a(href='/media') Media
                     li
                         a(href='/resources') Resources
                     li
-                        a(href='/media') Media
-                //
-                    -
-                    <li><a href="https://www.linkedin.com/in/alex-wilson-3021a5257">LinkedIn</a></li>
-                    -
+                        a(href='/software') Software
+                    li
+                        a(href='/projects') Projects
+                    li
+                        a(href='https://www.github.com/Alex-Wilson') GitHub
             a.cta(href='#')
                 button#contact-me-button Contact Me
     
