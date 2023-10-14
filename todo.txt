@@ -1,0 +1,4 @@
+sticky navbar
+add support for HTTPS via Let's Encrypt
+create nice topical logo (it can have a frog if I want)
+consider moving to bootstrap to help with maintainability
