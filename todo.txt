@@ -1,3 +1,5 @@
+figure out how to have constant deployment
+determine need for Typescript
 sticky navbar
 add support for HTTPS via Let's Encrypt
 create nice topical logo (it can have a frog if I want)
