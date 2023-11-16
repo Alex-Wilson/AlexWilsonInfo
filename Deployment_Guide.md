@@ -126,7 +126,11 @@
 ## Creating Github Account and Repo
     # TO-DO:
         Create github account
-        Add SSH keys
+            use the password manager to generate the password
+        Add generated SSH keys to Github account
+        Create github repo to host the 
+-----------------------------------------------------------------------------------------------
+
 
 ## First Log In
     # Update and Upgrade Packages:
